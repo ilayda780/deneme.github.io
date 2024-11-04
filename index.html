@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Test Sayfası</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    section {
+      height: 100vh;
+      padding: 20px;
+    }
+
+    header {
+      background-color: #6f4e37;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+    }
+
+    .arabica { background-color: #f4e3d7; }
+    .robusta { background-color: #d4c2a6; }
+    .liberica { background-color: #b59982; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#arabica">Arabica</a>
+      <a href="#robusta">Robusta</a>
+      <a href="#liberica">Liberica</a>
+    </nav>
+  </header>
+
+  <section id="arabica" class="arabica">
+    <h2>Arabica</h2>
+    <p>Bu bölüm Arabica kahve çekirdeklerini anlatır.</p>
+  </section>
+
+  <section id="robusta" class="robusta">
+    <h2>Robusta</h2>
+    <p>Bu bölüm Robusta kahve çekirdeklerini anlatır.</p>
+  </section>
+
+  <section id="liberica" class="liberica">
+    <h2>Liberica</h2>
+    <p>Bu bölüm Liberica kahve çekirdeklerini anlatır.</p>
+  </section>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kahve Çekirdekleri Dünyası</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: #f3f0e6;
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #4b3832;
+    }
+
+    header {
+      background-color: #6f4e37;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #f3f0e6;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+    }
+
+    .card img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 15px;
+    }
+
+    footer {
+      background-color: #6f4e37;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kahve Çekirdekleri Dünyası</h1>
+    <nav>
+      <a href="#arabica">Arabica</a>
+      <a href="#robusta">Robusta</a>
+      <a href="#liberica">Liberica</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="card" id="arabica">
+      <img src="https://source.unsplash.com/featured/?arabica" alt="Arabica Kahve Çekirdeği">
+      <div class="card-content">
+        <h2>Arabica</h2>
+        <p>Arabica kahve çekirdekleri, dünyadaki kahve üretiminin %60'ını oluşturur. Zengin aroması ve asiditesiyle bilinir.</p>
+      </div>
+    </div>
+
+    <div class="card" id="robusta">
+      <img src="https://source.unsplash.com/featured/?robusta" alt="Robusta Kahve Çekirdeği">
+      <div class="card-content">
+        <h2>Robusta</h2>
+        <p>Robusta çekirdekleri daha serttir ve yüksek kafein oranına sahiptir. Özellikle espresso harmanlarında kullanılır.</p>
+      </div>
+    </div>
+
+    <div class="card" id="liberica">
+      <img src="https://source.unsplash.com/featured/?liberica" alt="Liberica Kahve Çekirdeği">
+      <div class="card-content">
+        <h2>Liberica</h2>
+        <p>Liberica kahve çekirdekleri, Asya ve Afrika'da yetişir. Egzotik ve meyvemsi aromasıyla dikkat çeker.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2024 Kahve Çekirdekleri Dünyası. Tüm Hakları Saklıdır.</p>
+  </footer>
+</body>
+</html>
